@@ -13,9 +13,9 @@
 # limitations under the License.
 
 # Inherit device configuration for Kindle Fire
-$(call inherit-product, device/amazon/otter-common/cm.mk)
+$(call inherit-product, device/amazon/otter-common/slim.mk)
 $(call inherit-product, device/amazon/otterx/full_otterx.mk)
 
-PRODUCT_NAME := cm_otterx
+PRODUCT_NAME := slim_otterx
 PRODUCT_RELEASE_NAME := KFire
 
